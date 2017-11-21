@@ -144,11 +144,19 @@ $(function(){
 </div>
 
 <div id="container"> <!-- closes in includes/footer.html -->
+<!-- nav slider -->
+ <script src="js/jquery-1.8.2.min.js"></script>
+ 
+ 
+ <script src="js/jquery.nivo.slider.pack.js"></script> 
+
+
+ <script src='js/main.js'></script>
 
 	<!-- Begin Header -->
 	<div id="header">
     	<div id="headText">
-        	<a href="/"><h1>LLLL :: Department of Geography</h1></a>
+        	<a href="/"><h1>Title Here</h1></a>
         </div>
 		<div id="logo">
         	<a href="http://buffalo.edu" target="_blank"><h1>University at Buffalo, State University of New York</h1></a>
@@ -163,9 +171,21 @@ $(function(){
 
           <!-- Begin BANNER -->
     <div id="banner">
-        <div id="bannerimg">
-          <img src="http://www.ncgia.buffalo.edu/cpgis/gallery/4%20Niagara%20Falls%20Night/013.jpg" height="169" width="920" alt="home page banner"/>
+        <div id="slider" class="nivoSlider">
+            <!--old example-->
+            <!--<a href="#"><img src="images/index/slide3.jpg" alt="sliderImg3" title="<p>Geographic Collaboration</p> <span>Designed by Yueheng Zhou</span>" /></a>-->
+
+
+            <a href="#"><img src="images/index/slide6.jpg" alt="sliderImg5" title="<p>University at Buffalo</p> <span>http://www.buffalo.edu</span>" /></a>
+            <a href="#"><img src="images/index/6-1_4g.jpg" alt="sliderImg2" title="<p>Department of Geography</p> <span>http://www.buffalo.edu/cas/geography</span>"/> </a>
+            <a href="#"><img src="images/index/6-1_1g.jpg" alt="sliderImg5" title="<p>University at Buffalo</p> <span>http://www.buffalo.edu</span>" /></a>
+            <a href="#"><img src="images/index/6-1_5g.jpg" alt="sliderImg3" title="<p>University at Buffalo</p> <span>http://www.buffalo.edu</span>"/> </a>
+            <a href="#"><img src="images/index/slide5.jpg" alt="sliderImg4" title="<p>Research</p> <span>David Mark*</span>" /></a>
+            <a href="#"><img src="images/index/6-1_3g.jpg" alt="sliderImg1" title="<p>University at Buffalo</p> <span>http://www.buffalo.edu</span>" /></a>
+            <a href="#"><img src="images/index/slide5.jpg" alt="sliderImg4" title="<p>Research</p> <span>David Mark*</span>" /></a>
+
         </div>
+        <div id="shadow"></div>
          
          <div id="nav">
     	      <div class="menu-main-menu-container"><ul id="sample-menu-1" class="mainNav  nav sf-menu"><li id="menu-item-527" class="divider-vertical-second-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-527"><a href="index.html">Home</a></li>
@@ -733,7 +753,6 @@ $(function(){
 <p>&nbsp;</p>
       </div>
   
-
 <div id="sidebarHome">
         	<div id="partners">
              <h4>Partners</h4>
@@ -778,16 +797,18 @@ $(function(){
   <a href="http://wordpress.caset.buffalo.edu/isep/photo-gallery/" rel="prettyPhoto[pp_gal]" title="Students in the Lab"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/thmb3.jpg" width="67" height="68" alt="Photographer Name" /></a>
   <a href="http://wordpress.caset.buffalo.edu/isep/photo-gallery/" rel="prettyPhoto[pp_gal]" title="Students with Blue Goo"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/thmb4.jpg" width="67" height="68" alt="Photographer Name" /></a>
   <a href="http://wordpress.caset.buffalo.edu/isep/photo-gallery/" rel="prettyPhoto[pp_gal]" title="Student with Professor Watching Demonstration"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/thmb5.jpg" width="67" height="68" alt="Photographer Name" /></a>
-  <p style="margin-bottom: 0"><a href="http://wordpress.caset.buffalo.edu/isep/photo-gallery/">View Full Gallery >></a></p>
+  <p style="margin-bottom: 0"><a href="gallery.html">View Full Gallery >></a></p>
 </div>
 
 </div>
+
 </div>
    
 <div class="clear"></div>
 
-<!-- Footer - Gela -->
- <div id="footer">
+<!-- Footer - -->
+ 
+<div id="footer">
 	<div id="footerText">
         		<div id="footerLeft">
                 	<p><a href="http://www.buffalo.edu/aboutub/" target="_blank">About Buffalo</a><br />
@@ -806,14 +827,12 @@ $(function(){
             	</div>
                 
                 <div id="footerSocial">
-	<a href="http://www.facebook.com/pages/Interdisciplinary-Science-and-Engineering-Partnership/352799338150340?ref=hl" target="_blank"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/icon-fb1.png" width="25" height="25" alt="facebook icon" /></a>
-    <a href="https://twitter.com/ISEPBuffalo" target="_blank"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/icon-twitter.png" width="25" height="25" alt="twitter icon" /></a>
-    <a href="https://plus.google.com/b/113308461685304078769/113308461685304078769/posts/p/pub" target="_blank"><img src="http://wordpress.caset.buffalo.edu/isep/wp-content/uploads/sites/45/2015/09/icon-gplus.png" width="25" height="25" alt="Google Plus icon" /></a>
-                </div>
+	<a href="https://www.facebook.com/universityatbuffalo/" class="facebook">facebook</a>
+    <a href="https://twitter.com/UBCommunity" class="twitter">twitter</a>
+        </div>
                 
         	</div>
-    </div>
-    
+    </div>    
           
 
 	
