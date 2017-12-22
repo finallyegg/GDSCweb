@@ -229,7 +229,7 @@ h1, h2, h3, h4 {
 	margin: 0 0 10px 0;
 }
 h1 {
-	color: #00551f;
+	color: #102e47;
 	font-size: 24px;
 }
 h2 {
@@ -299,7 +299,7 @@ a:active {
 	height: 55px;
 	float: right;
 	clear: right;
-	margin: 5px 2px 10px 0;
+	margin: 5px 23px 10px 0;
 }
 #logo h1 {
 	text-indent: -9999px;
@@ -317,13 +317,13 @@ screen-reader-text {
 color:#F00;
 }
 #banner {
-	width: 960px;
+	width: 844px;
 	height: auto;
 	margin: 0 auto;
 }
 #nav {
 	height: 37px;
-	width: 960px;
+	width: 844px;
 	background-color: #005bbb;/* text-align:;*/
 	padding: 0px 0 0 0;
 }
@@ -337,8 +337,8 @@ color:#F00;
 	margin: 0 0 20px 0;
 }
 #content {
-	margin: 20px 40px 10px 25px;
-	width: 860px;
+	margin: 20px 40px 10px 43px;
+	width: 844px;
 	height: 100%;
 	min-height: 1092px;
 }
@@ -354,13 +354,13 @@ color:#F00;
 	padding: 0 0 0 30px;
 }
 #sidebarHome {
-	width: 230px;
+	width: 220px;
 	float: right;
 	padding: 0 0 0 0px;
 	clear:right;
 }
 div#gallery-side img {
-	padding: 0 8px 8px 0;
+	padding: 0 5px 8px 0;
     
 }
 #social-side {
@@ -392,14 +392,14 @@ div#partners img {
 }
 
 #contentRight {
-	width: 584px;
+	width: 578px;
 	float: left;
 	padding-left: 5px;
-	padding-right: 5px;
+	padding-right: 20px;
 	height: 100%;
 }
 #footer {
-	width: 950px;
+	width: 844px;
 	margin: 0 auto;
 	background: #005bbb;
 }
@@ -423,7 +423,7 @@ div#partners img {
 }
 #footerText {
 	margin: 0 auto;
-	width: 930px;
+	width: 844px;
 	height: 100px;
 }
 #footerText p {
@@ -558,7 +558,7 @@ ul.mainNav li ul li a {color:#ffffff; width:100%;}*/
 ul.links {
 	margin: 0 0 30px 0;
 	padding: 0;
-	width: 230px;
+	width: 215px;
 }
 
 ul.links li {
@@ -1627,11 +1627,11 @@ a.nivo-control:hover, a.active {
 }
 
 #shadow {
- width: 960px;
+ width: 844px;
  height: 49px;
  background: url('images/shadow.png');
  margin-top: -27px;
- margin-bottom: 25px;
+ margin-bottom: -17px;
 }
 /* The Nivo Slider styles */
 .nivoSlider {
